@@ -1,0 +1,70 @@
+/* Estilçizando componentes */
+body {
+    color: blue;
+    background-color: chartreuse;
+}
+
+h1 {
+    color: darkcyan;
+}
+
+p {
+    color: rgb(238, 27, 27);
+}
+
+header {
+    font-family: cursive;
+    font-style: italic;
+    background-color: rgb(143, 224, 51);
+    color: rgb(8, 85, 6);
+}
+
+/* estilizando o menu  por meio de classe*/
+.menu_bacana {
+    width: 48%;
+    height: 50px;
+    background-color: rgb(5, 141, 11);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu_bacana ul {
+    list-style: none;
+    position: relative;
+}
+
+.menu_bacana ul li {
+    width: 150x;
+    float: left;
+}
+
+.menu_bacana a {
+
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(5, 119, 11);
+    color: white;
+}
+
+.menu_bacana ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu_bacana ul li:hover ul {
+    visibility: visible;
+}
+
+.menu_bacana a:hover {
+    background-color: rgb(5, 141, 11);
+    color: black;
+}
+
+.menu_bacana ul ul li {
+    float: none;
+    border-bottom: solid 1px #ccc;
+}
+
+.menu_bacana ul ul li a {
+    background-color: rgb(5, 141, 11);
